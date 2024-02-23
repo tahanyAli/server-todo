@@ -12,8 +12,5 @@ const pool=new Pool({
     port:Port,
     database: Database
 });
-// postgres://perntodo_o4i5_user:trRabs70nWN0wjlDHiaVV0hU3XMpWePw@dpg-cncf7cect0pc73frdhl0-a/perntodo_o4i5
-// const pool = new Pool({
-//     connectionString: process.env.POSTGRES_URL + "?sslmode=require",
-// })
+
 module.exports = pool;
